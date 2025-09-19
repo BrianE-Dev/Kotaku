@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    opacity: 0.6;
+}
+img:hover{
+    opacity: 0.8;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #161619;
+    color: #ffffff;
+}
+
+header{
+    border-top: 5px solid #d4016e;
+    background-color: #161619;
+    height: 110px;
+    position: fixed;
+    width: 100vw;
+}
+
+nav ul{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   
+}
+
+nav img{
+    width: 330px;
+    position: relative;
+    cursor: pointer;
+}
+
+nav ul li{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 0 0 20px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+}
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 10px;
+}
+
+span{
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 19px;
+    position: relative;
+    top: 36px;
+}
+
+
+.ads{
+    background-color: #28282b;
+    height: 350px;
+  
+}
+.ads img{
+    width: 900px;
+    padding: 120px; 
+    margin-left: 50px;
+}
+
+.area{
+    display: flex;
+}
+main{
+    flex: 5;
+}
+
+.major{
+    
+   
+}
+
+/* ************************************ */
+.display_1 img{
+    width: 860px;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+h2{
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.contents{
+    margin: 30px;
+}
+
+.main_h{
+    font-weight: 900;
+    font-size: 44px;
+}
+
+    .main_auth{
+        line-height: 40px;
+    }
+
+    .display_2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .display_3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+
+    .disp{
+        width: 268px;
+    }
+
+
+    .text{
+        margin: 20px 0 0 0;
+        line-height: 24px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+
+
+
+/* sidebar */
+aside{
+    /* margin-top: 30px; */
+    flex: 2;
+    height: 2200px;
+    /* background-color: #ffffff; */
+    width: 600px;
+    font-size: 14px;
+}
+aside h2{
+    line-height: 45px;
+    font-style: bold;
+}
+
+.article {
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      gap: 20px;
+      padding: 20px 0;
+      cursor: pointer;
+    }
+aside p{
+    cursor: pointer;
+    }
+    .date {
+        margin-left: 10px;
+        font-size: 13px;
+        color: #bbb;
+    }
+
+    .align{
+        margin-left: -12px;
+        font-weight: bold;
+    }
+    
+    .vert_line{
+        border-left: 1.25px solid #bbb;
+        height: 86px;
+        margin-top: -10px;
+    }
+
+    .wrap1{
+       
+        margin-left: 20px;
+        display: inline;
+        flex-direction:row;
+        gap: 20px;
+    }
+ 
+    .hdl1 {
+        margin-top: -110px;
+        margin-left: 90px;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 20px;
+    }
+    .hdl2 {
+        margin-left: 90px;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 20px;
+    }
+
+   
+
+    .author {
+        padding: 10px 0 0 0;
+        margin-left: 90px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #ff2fab; 
+
+    }
+
+    .ads_2{
+    background-color: #282829;
+    height: 240px;
+  
+}
+.ads_2 img{
+    width: 900px;
+    padding: 5px 50px; 
+    margin-left: 150px;
+}
+
+        /* footer */
+    footer{
+        height: 250px;
+        background-color: #000000;
+    }
+
+    .foot_nav{
+        display: flex;
+        padding: 10px;
+    }
+    .foot_nav span{
+        padding-left: 30px;
+    }
+    .note{
+       margin-left: 290px;
+       margin-top: 30px;
+    }
+    .note ul{
+        font-size: 14px;
+         display: flex;
+         list-style: none;
+         gap: 10px;
+    }
+
+    #footnote{
+        margin-top: 30px;
+        margin-left: 290px;
+        
+    }
+    #footnote p{
+        font-size: 14px;
+    }
+
+    /* *************************** */
+    .contents h1:hover{
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    .micro p:hover:{
+        opacity: 0.7;
+        cursor: pointer;
+    }
+
+    .crd_wrap{
+        display: flex;
+        flex-wrap: row wrap;
+    }
+    .crd_wrap img{
+        width: 250px;
+    }
