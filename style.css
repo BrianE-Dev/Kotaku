@@ -19,7 +19,7 @@ body{
 }
 
 header{
-    border-top: 5px solid #d4016e;
+    border-top: 5px solid #e82982;
     background-color: #161619;
     height: 110px;
     position: fixed;
@@ -85,11 +85,6 @@ main{
     flex: 5;
 }
 
-.major{
-    
-   
-}
-
 /* ************************************ */
 .display_1 img{
     width: 860px;
@@ -138,8 +133,8 @@ h2{
     .text{
         margin: 20px 0 0 0;
         line-height: 24px;
-        font-size: 19px;
-        font-weight: 500;
+        font-size: 18px;
+        font-weight: 700;
     }
 
 
@@ -149,8 +144,7 @@ h2{
 aside{
     /* margin-top: 30px; */
     flex: 2;
-    height: 2200px;
-    /* background-color: #ffffff; */
+    height: 1400px;
     width: 600px;
     font-size: 14px;
 }
@@ -215,7 +209,7 @@ aside p{
         margin-left: 90px;
         font-size: 14px;
         font-weight: 700;
-        color: #ff2fab; 
+        color: #e82982; 
 
     }
 
@@ -229,8 +223,48 @@ aside p{
     padding: 5px 50px; 
     margin-left: 150px;
 }
+/******************* SIDEBAR ENDS ****************************/
 
-        /* footer */
+.more_crd{
+    width: 260px;
+}
+
+.crd_wrap{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    margin: 40px;
+    gap: 20px;
+}
+.pink_{
+    color:#e82982;
+    line-height: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.border_{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.bd_txt{
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+/* ***************************************** */
+.t_g{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+/*********************** footer **************/
     footer{
         height: 250px;
         background-color: #000000;
@@ -268,10 +302,11 @@ aside p{
         opacity: 0.7;
         cursor: pointer;
     }
-    .micro p:hover:{
+    .micro p:hover {
         opacity: 0.7;
         cursor: pointer;
     }
+        
 
     .crd_wrap{
         display: flex;
