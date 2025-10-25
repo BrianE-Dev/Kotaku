@@ -58,7 +58,7 @@ nav ul {
   display: flex;
   flex-direction: row;
   list-style: none;
-  justify-content: center;
+  /* justify-content: space-evenly; */
 }
 
 nav img {
@@ -74,16 +74,24 @@ nav ul li {
   padding-left: 20px;
   letter-spacing: 1px;
   position: relative;
-  top: 40px;
+  top: 30px;
+  left: -140px;
   cursor: pointer;
 }
 
 .nav_bar {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  gap: 10px;
+  align-items: center;
 }
-
+.nav_bar span {
+    position: relative;
+    top: 10px;
+}
+.nav_bar img{
+    width: 70%;
+}
 span {
   cursor: pointer;
   color: #ffffff;
@@ -92,6 +100,11 @@ span {
 }
 
 .hamburger {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    right: 10px;
+    top: 15px;
   padding-right: 30px;
 }
 
